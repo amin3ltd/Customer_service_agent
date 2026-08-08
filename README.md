@@ -9,12 +9,12 @@ The agent can retrieve customer information, inspect order data, and provide con
 <div align="center">
 
 <a href="https://youtu.be/UzKVVLqPFJ4">
-  <img src="https://img.youtube.com/vi/UzKVVLqPFJ4/maxresdefault.jpg" width="800" alt="AI Customer Service Agent Demo">
+  <img src="assets/demo.png" alt="AI Customer Service Agent Workflow Demo" width="800">
 </a>
 
-<br><br>
+<br>
 
-**▶️ Watch the workflow demonstration**
+**▶️ [Watch the workflow demonstration](https://youtu.be/UzKVVLqPFJ4)**
 
 </div>
 
@@ -99,8 +99,6 @@ Instead of simply generating text, the agent can decide when it needs to retriev
 | **GetCustomers**  | Retrieves customer information                  |
 | **GetOrderData**  | Retrieves order and product information         |
 | **Chat Model**    | Provides the language model used by the agent   |
-
-The workflow connects both tools and memory directly to the AI Agent.
 
 ---
 
