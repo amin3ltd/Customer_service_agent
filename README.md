@@ -8,13 +8,7 @@ The agent can retrieve customer information, inspect order data, and provide con
 
 <div align="center">
 
-<a href="https://youtu.be/UzKVVLqPFJ4">
-  <img src="https://img.youtube.com/vi/UzKVVLqPFJ4/maxresdefault.jpg" width="800" alt="AI Customer Service Agent Demo">
-</a>
-
-<br><br>
-
-**▶️ Watch the workflow demonstration**
+<iframe width="800" height="450" src="https://www.youtube.com/embed/UzKVVLqPFJ4?autoplay=1&mute=1&loop=1&playlist=UzKVVLqPFJ4" title="AI Customer Service Agent Demo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
 
 </div>
 
