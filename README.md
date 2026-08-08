@@ -8,8 +8,8 @@ The agent can retrieve customer information, inspect order data, and provide con
 
 <div align="center">
 
-<a href="[https://www.youtube.com/watch?v=IKOc5C8kugs](https://youtu.be/UzKVVLqPFJ4)">
-  <img src="https://img.youtube.com/vi/IKOc5C8kugs/maxresdefault.jpg" width="800" alt="AI Customer Service Agent Demo">
+<a href="https://youtu.be/UzKVVLqPFJ4">
+  <img src="https://img.youtube.com/vi/UzKVVLqPFJ4/maxresdefault.jpg" width="800" alt="AI Customer Service Agent Demo">
 </a>
 
 <br><br>
@@ -48,7 +48,7 @@ Instead of simply generating text, the agent can decide when it needs to retriev
                                │
                                ▼
                     ┌─────────────────────┐
-                    │    n8n Chat Trigger  │
+                    │    n8n Chat Trigger │
                     └──────────┬──────────┘
                                │
                                ▼
@@ -114,7 +114,7 @@ For customer-related requests, it uses the `GetCustomers` tool.
 
 For questions involving orders, prices, employees, or product categories, it uses `GetOrderData`.
 
-This makes the workflow more useful for business applications where responses should be grounded in actual operational data.
+This makes the workflow useful for business applications where responses should be grounded in actual operational data.
 
 ---
 
@@ -173,7 +173,7 @@ The configured tool is intended to retrieve:
 
 The workflow uses **Simple Memory** connected to the AI Agent, allowing the agent to maintain context across messages within a conversation.
 
-This enables interactions such as:
+Example:
 
 ```text
 Customer:
@@ -204,7 +204,7 @@ n8n
 └── Chat Model
 ```
 
-The current workflow uses a chat model configured through the OpenAI chat-model node.
+The workflow uses a chat model connected to the AI Agent through n8n's AI language-model connection.
 
 ---
 
@@ -244,7 +244,7 @@ Configure the required credentials for:
 
 ### 4. Configure your data
 
-Connect your own customer database/Data Table and order API.
+Connect your own customer Data Table and order API.
 
 ### 5. Activate
 
