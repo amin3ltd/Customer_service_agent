@@ -6,17 +6,10 @@ The agent can retrieve customer information, inspect order data, and provide con
 
 ## 🎥 Workflow Demo
 
-<div align="center">
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
-    width="800"
-  >
+<video autoplay muted loop playsinline controls>
     <source src="customer_service_agent.mp4" type="video/mp4">
-  </video>
-</div>
+    Your browser does not support video playback.
+</video>
 
 ---
 
